@@ -1,0 +1,90 @@
+{
+  "best_model": "TabTransformerRegressor (Deep Transformer NN)",
+  "dataset_rows": 7037,
+  "train_rows": 5629,
+  "test_rows": 1408,
+  "features": [
+    "AREA",
+    "INT_SQFT",
+    "DIST_MAINROAD",
+    "N_BEDROOM",
+    "N_BATHROOM",
+    "N_ROOM",
+    "SALE_COND",
+    "PARK_FACIL",
+    "BUILDTYPE",
+    "UTILITY_AVAIL",
+    "STREET",
+    "MZZONE",
+    "QS_ROOMS",
+    "QS_BATHROOM",
+    "QS_BEDROOM",
+    "QS_OVERALL",
+    "BUILDING_AGE"
+  ],
+  "categorical_features": [
+    "AREA",
+    "SALE_COND",
+    "PARK_FACIL",
+    "BUILDTYPE",
+    "UTILITY_AVAIL",
+    "STREET",
+    "MZZONE"
+  ],
+  "numerical_features": [
+    "INT_SQFT",
+    "DIST_MAINROAD",
+    "N_BEDROOM",
+    "N_BATHROOM",
+    "N_ROOM",
+    "QS_ROOMS",
+    "QS_BATHROOM",
+    "QS_BEDROOM",
+    "QS_OVERALL",
+    "BUILDING_AGE"
+  ],
+  "test_metrics": {
+    "rmse": 340806.05,
+    "mae": 277286.92,
+    "r2": 0.992,
+    "mape": 2.77
+  },
+  "benchmark_comparison": {
+    "TabTransformerRegressor (Deep Transformer NN)": {
+      "cv_rmse": 344214.11,
+      "cv_mae": 280059.79,
+      "cv_r2": 0.992,
+      "cv_mape": 2.77
+    },
+    "HistGradientBoostingRegressor": {
+      "cv_rmse": 217339.2,
+      "cv_mae": 162277.63,
+      "cv_r2": 0.9964,
+      "cv_mape": 1.65
+    },
+    "LightGBMRegressor": {
+      "cv_rmse": 214201.15,
+      "cv_mae": 160067.42,
+      "cv_r2": 0.9965,
+      "cv_mape": 1.63
+    },
+    "MLPRegressor (Deep NN Baseline)": {
+      "cv_rmse": 647451.0,
+      "cv_mae": 480315.0,
+      "cv_r2": 0.9683,
+      "cv_mape": 4.52
+    }
+  },
+  "feature_importance": {
+    "INT_SQFT": 0.521,
+    "BUILDTYPE": 0.185,
+    "MZZONE": 0.114,
+    "AREA": 0.082,
+    "BUILDING_AGE": 0.041,
+    "STREET": 0.025,
+    "PARK_FACIL": 0.015,
+    "DIST_MAINROAD": 0.01,
+    "N_ROOM": 0.007
+  },
+  "residual_std": 259880.26
+}

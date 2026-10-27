@@ -1,0 +1,65 @@
+{
+  "Adyar": {
+    "count": 774,
+    "avg_price": 9185668.39,
+    "median_price": 8878350.0,
+    "min_price": 3869180.0,
+    "max_price": 17360470.0,
+    "avg_sqft_price": 9783.93,
+    "median_sqft_price": 9523.17
+  },
+  "Anna Nagar": {
+    "count": 766,
+    "avg_price": 14953922.15,
+    "median_price": 13633035.0,
+    "min_price": 9593040.0,
+    "max_price": 22149210.0,
+    "avg_sqft_price": 8579.41,
+    "median_sqft_price": 7771.56
+  },
+  "Chrompet": {
+    "count": 1702,
+    "avg_price": 10013809.65,
+    "median_price": 9606725.0,
+    "min_price": 5340900.0,
+    "max_price": 16026600.0,
+    "avg_sqft_price": 10116.88,
+    "median_sqft_price": 9770.82
+  },
+  "KK Nagar": {
+    "count": 997,
+    "avg_price": 12696228.75,
+    "median_price": 12146740.0,
+    "min_price": 7410200.0,
+    "max_price": 20246360.0,
+    "avg_sqft_price": 6767.16,
+    "median_sqft_price": 6330.19
+  },
+  "Karapakkam": {
+    "count": 1330,
+    "avg_price": 7452203.29,
+    "median_price": 7104000.0,
+    "min_price": 3643875.0,
+    "max_price": 14486250.0,
+    "avg_sqft_price": 7051.9,
+    "median_sqft_price": 6748.77
+  },
+  "T Nagar": {
+    "count": 487,
+    "avg_price": 15410445.11,
+    "median_price": 14001530.0,
+    "min_price": 9433610.0,
+    "max_price": 22201820.0,
+    "avg_sqft_price": 8815.01,
+    "median_sqft_price": 7933.35
+  },
+  "Velachery": {
+    "count": 981,
+    "avg_price": 11047353.03,
+    "median_price": 10494410.0,
+    "min_price": 5574400.0,
+    "max_price": 18298710.0,
+    "avg_sqft_price": 6354.4,
+    "median_sqft_price": 5987.86
+  }
+}
